@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Lunch n Learn">
+  <test name="Lunch n Learn" preserve-order="true">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.lunchnlearn.tests.OurFirstScript"></class>
+    </classes>
+  </test>
+</suite>
